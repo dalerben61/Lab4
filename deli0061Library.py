@@ -17,9 +17,9 @@ def convertFahrenheitToCelsius(fTemp):
 
 def calculateDistanceBetweenPoints():
     x = random.randint(1,127)
-    y = random.randint(1,127)
+    y = random.randint(1,63)
     x1 = random.randint(1,127)
-    y1 = random.randint(1,127)
+    y1 = random.randint(1,63)
 
     distance = math.sqrt( ((x - x1) ** 2) + ((y - y1) ** 2) )
     return distance
